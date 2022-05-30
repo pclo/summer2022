@@ -10,7 +10,7 @@ note: "This is a suppoting document for the practical segment of the lecture -In
 ___
 # Introduction to the command line
 ___
-This is a suppoting document for the practical segment of the lecture -Introductory computational skills-, from the 2022 summer school in bioinformatics [summer school in bioinformatics2022](https://www.ebi.ac.uk/training/events/summer-school-bioinformatics-2022/)
+This is a suppoting document for the practical segment of the lecture -Introductory computational skills-, from the [summer school in bioinformatics 2022](https://www.ebi.ac.uk/training/events/summer-school-bioinformatics-2022/)
 
 <p>&nbsp;</p>
 
