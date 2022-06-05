@@ -188,6 +188,27 @@ Rename the directory moto to motorcycle (verify the name 	change)
 mv moto motorcycle
 ls
 ```
+Verify the contents of the current folder
+```
+ls -l
+```
+Create a symbolic link to the file called 'here.txt' (which is located inside the additional directory in practical-cli)
+```
+ln -s ../additional/here.txt that
+```
+Verify the contents of the current folder. What is different?
+```
+ls -l
+```
+Let's see what is the content of the 'here.txt' file
+```
+cat ../additional/here.txt 
+```
+Now try displaying the file 'that'
+```
+cat that 
+```
+
 Go back to the home directory
 ```
 cd ~/
