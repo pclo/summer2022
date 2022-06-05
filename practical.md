@@ -109,7 +109,7 @@ ls -la
 ```
 Now let's move arround directories. Make sure that at this momment you are at the _practical-cli_ directory, you can see the directory distribution in Figure 3
 
-![Figure3](https://raw.githubusercontent.com/pclo/summer2021/main/images/Figure%203.png)
+![Figure3](https://raw.githubusercontent.com/pclo/summer2022/main/files/Slide11.png)
 Figure 3
 
 <p>&nbsp;</p>
@@ -263,7 +263,7 @@ Identify which is the Process ID (PID) assigned to Firefox, then quit the _top_ 
 ```
 q
 ```
-![Figure 4](https://raw.githubusercontent.com/pclo/summer2021/main/images/Figure%204.png)
+![Figure 4](https://raw.githubusercontent.com/pclo/summer2022/main/files/Slide12.png)
 Figure 4
 
 <p>&nbsp;</p>
