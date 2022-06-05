@@ -97,7 +97,7 @@ Can you identify which are files, directories, programs or links?. Even better, 
 ls -l
 ```
 
-![Figure2](https://raw.githubusercontent.com/pclo/summer2021/main/images/Figure%202.png)
+![Figure2](https://raw.githubusercontent.com/pclo/summer2022/main/files/Slide10.png)
 Figure 2
 <p>&nbsp;</p>
 
