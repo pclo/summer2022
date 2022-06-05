@@ -200,7 +200,7 @@ Verify the contents of the current folder. What is different?
 ```
 ls -l
 ```
-Let's see what is the content of the 'here.txt' file
+Let's see what is the content of the 'here.txt' file. We'll do this with the help of the command `cat`
 ```
 cat ../additional/here.txt 
 ```
@@ -248,9 +248,9 @@ Figure 4
 
 <p>&nbsp;</p>
 
-Suposing that Firefox's PID is 18033, terminate that process with the help of the command _kill_
+Suposing that Firefox's PID is 5635, terminate that process with the help of the command _kill_
 ```
-kill -9 18033
+kill -9 5635
 ```
 Note that you have to replace the number with the PID assigned by your computer. 
 
