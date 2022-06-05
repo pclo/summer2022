@@ -27,16 +27,16 @@ __Some notes before we start.__
 We need to set up a few things for our practical. First we'll download all the necessary files and folders for this session, next we'll prepare them (uncompress the downloaded file, we'll see this process during our practical)
 ```
 cd ~/
-wget http COMPLETE THIS ADDRESS
-tar –xvzf
+wget http://zenodo.org/record/6615420/files/f_and_d.tar.gz
+tar –xvzf f_and_d.tar.gz
 ls
 clear
 ```
 If you are working on a Mac terminal please use the following commands instead...
 ```
 cd ~/
-curl http COMPLETE THIS ADDRESS -o FILENAME
-tar –xvzf
+curl http://zenodo.org/record/6615420/files/f_and_d.tar.gz -o f_and_d.tar.gz
+tar –xvzf f_and_d.tar.gz
 ls
 clear
 ```
@@ -160,6 +160,17 @@ Go back to _dir2_ (which is the previous directory)
 ```
 cd ..
 ```
+
+with the help of `mkdir` create a new directory called _speaker_. Verify the contents of the your current location before and after creating the new folder 
+```
+ls -l
+mkdir speaker
+ls -l
+```
+
+
+
+
 <p>&nbsp;</p>
 
 ## 3. Removal of files and directories
@@ -185,7 +196,7 @@ You can always modify the name of a file or directory with the help of the `mv` 
 Go to the renaming directory (which is located inside 	practical-cli), then display its content
 ```
 cd ~/practical-cli/renaming
-ls
+ls -l
 ```
 Rename the file car.txt to automobile.txt (verify the name 	change)
 ```
