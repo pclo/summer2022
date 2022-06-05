@@ -77,7 +77,7 @@ When you opened your CLI by default LINUX locates you at your home directory. To
 pwd
 ```
 
-![Figure1](https://raw.githubusercontent.com/pclo/summer2021/main/images/Figure%201.png)
+![Figure1](https://raw.githubusercontent.com/pclo/summer2022/main/files/Slide9.png)
 Figure 1
 <p>&nbsp;</p>
 
