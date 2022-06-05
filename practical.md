@@ -32,6 +32,15 @@ tar –xvzf
 ls
 clear
 ```
+If you are working on a Mac terminal please use the following commands instead...
+```
+cd ~/
+curl http COMPLETE THIS ADDRESS -o FILENAME
+tar –xvzf
+ls
+clear
+```
+
 
 ## 1. Environmental variables  
 
@@ -394,9 +403,13 @@ We are going to use the annotation from [_Saccharomyces cerevisiae_](http://www.
 
 + Download the annotation file (named Saccharomyces_cerevisiae.R64-1-1.104.gtf.gz) from the [Ensemble FTP site (R64-1-14)](http://ftp.ensembl.org/pub/release-104/gtf/saccharomyces_cerevisiae/). Open your CLI and locate yourself in the directory where you placed your GTF file
 
-+ Download the annotation file alternative method (do not use if you use the first method). Open the CLI and locate yourself in the directory where you want to work. Use the command `wget` to download the file
++ Download the annotation file: alternative (do not use if you use the first method). Open the CLI and locate yourself in the directory where you want to work. Use the command `wget` to download the file
 ```
 wget http://ftp.ensembl.org/pub/release-104/gtf/saccharomyces_cerevisiae/Saccharomyces_cerevisiae.R64-1-1.104.gtf.gz
+```
+Note that if you are using a Mac terminal you'll need to use the command `curl` instead
+```
+curl http://ftp.ensembl.org/pub/release-104/gtf/saccharomyces_cerevisiae/Saccharomyces_cerevisiae.R64-1-1.104.gtf.gz -o Saccharomyces_cerevisiae.R64-1-1.104.gtf.gz
 ```
 
 + Make sure you are located in the directory where you placed your GTF file
