@@ -23,6 +23,16 @@ __Some notes before we start.__
 * `command -help` also displays a help page about the command
 * `man command` enters the manual of the commands (type `q` when you need to exit the manual)
 
+## 1. Preparing the practical session
+We need to set up a few things for our practical. First we'll download all the necessary files and folders for this session, next we'll prepare them (uncompress the downloaded file, we'll see this process during our practical)
+```
+cd ~/
+wget http COMPLETE THIS ADDRESS
+tar –xvzf
+ls
+clear
+```
+
 ## 1. Environmental variables  
 
 The command `echo` is used to display lines of text or strings that are passed as an argument. For instance if you type on your Terminal
@@ -43,6 +53,12 @@ Now we let's see the value of the variable _HOME_
 ```
 echo $HOME
 ```
+
+What are the environmental variables of your system. Use  _printenv_ to find out
+```
+printenv
+```
+
 <p>&nbsp;</p>
 
 
