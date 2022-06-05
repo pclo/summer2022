@@ -35,7 +35,7 @@ clear
 If you are working on a Mac terminal please use the following commands instead...
 ```
 cd ~/
-curl http://zenodo.org/record/6615420/files/f_and_d.tar.gz -o f_and_d.tar.gz
+curl -L -O http://zenodo.org/record/6615420/files/f_and_d.tar.gz -o f_and_d.tar.gz
 tar –xvzf f_and_d.tar.gz
 ls
 clear
